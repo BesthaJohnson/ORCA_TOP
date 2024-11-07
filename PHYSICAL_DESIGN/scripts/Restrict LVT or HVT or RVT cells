@@ -1,0 +1,3 @@
+set_attribute [get_lib_cells *lvt*/*] threshold_voltage_group LVT
+set_threshold_voltage_group_type -type low_vt LVT
+ set_multi_vth_constraint -low_vt_percentage 30 -cost cell_count
